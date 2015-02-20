@@ -37,18 +37,6 @@ namespace Book_of_Gold {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml")]
-        public global::System.Uri SelectedThemeSource {
-            get {
-                return ((global::System.Uri)(this["SelectedThemeSource"]));
-            }
-            set {
-                this["SelectedThemeSource"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("dark")]
         public string SelectedThemeDisplayName {
             get {
@@ -68,6 +56,18 @@ namespace Book_of_Gold {
             }
             set {
                 this["SelectedFontSize"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml")]
+        public global::System.Uri SelectedThemeSource {
+            get {
+                return ((global::System.Uri)(this["SelectedThemeSource"]));
+            }
+            set {
+                this["SelectedThemeSource"] = value;
             }
         }
     }

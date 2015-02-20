@@ -5,14 +5,14 @@
     <Setting Name="SelectedAccentColor" Type="System.Windows.Media.Color" Scope="User">
       <Value Profile="(Default)">#00000000</Value>
     </Setting>
-    <Setting Name="SelectedThemeSource" Type="System.Uri" Scope="User">
-      <Value Profile="(Default)">/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml</Value>
-    </Setting>
     <Setting Name="SelectedThemeDisplayName" Type="System.String" Scope="User">
       <Value Profile="(Default)">dark</Value>
     </Setting>
     <Setting Name="SelectedFontSize" Type="System.String" Scope="User">
       <Value Profile="(Default)">large</Value>
+    </Setting>
+    <Setting Name="SelectedThemeSource" Type="System.Uri" Scope="User">
+      <Value Profile="(Default)">/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml</Value>
     </Setting>
   </Settings>
 </SettingsFile>

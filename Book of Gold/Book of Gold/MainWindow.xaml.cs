@@ -23,12 +23,12 @@ namespace Book_of_Gold
     {
         public MainWindow()
         {
-            InitializeComponent();
-            Pages.Settings.AppearanceViewModel settings = new Pages.Settings.AppearanceViewModel();
-            settings.SetThemeAndColor(ProgramSettings.Default.SelectedThemeDisplayName,
-                ProgramSettings.Default.SelectedThemeSource,
-                ProgramSettings.Default.SelectedAccentColor,
-                ProgramSettings.Default.SelectedFontSize);
+                InitializeComponent();
+                Pages.Settings.AppearanceViewModel settings = new Pages.Settings.AppearanceViewModel();
+                settings.SetThemeAndColor(ProgramSettings.Default.SelectedThemeDisplayName,
+                    ProgramSettings.Default.SelectedThemeSource,
+                    ProgramSettings.Default.SelectedAccentColor,
+                    ProgramSettings.Default.SelectedFontSize);
         }
     }
 }
