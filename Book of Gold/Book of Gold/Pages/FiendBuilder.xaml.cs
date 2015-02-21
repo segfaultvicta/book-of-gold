@@ -148,7 +148,7 @@ namespace Book_of_Gold.Pages
             attack.CleanDescription = "Deals weapon damage physical damage.";
             attack.COS = "CoS: 80";
             attack.Prime(fiend);
-            attack.DamageMultiplier = 1.0M;
+            attack.AddDamageMultiplier("weapon damage", 1.0M);
             attack.Category = "Basic";
             attack.Subcategory = "Attack";
             knownAbilities.Add(attack);
